@@ -1,0 +1,13 @@
+{
+  "name": "rovela-competitor-intelligence",
+  "version": "1.0.0",
+  "description": "Automated competitor monitoring for Rovela",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/run_intelligence.js",
+    "scan:full": "FORCE_FULL_SCAN=true node scripts/run_intelligence.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}
