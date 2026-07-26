@@ -1,0 +1,29 @@
+{
+  "last_run_date": "2026-07-26",
+  "competitors": {
+    "Prevalnt": {
+      "last_checked": "2026-07-26",
+      "products": [],
+      "section_hashes": [
+        {
+          "section": "Homepage",
+          "hash": "PrevalntPrevalnt"
+        }
+      ]
+    },
+    "Artuvate": {
+      "last_checked": "2026-07-26",
+      "products": [],
+      "section_hashes": [
+        {
+          "section": "Homepage meta / OG",
+          "hash": "ARTUVATE | Store Ufficiale | Artuvate: l'arte di fare shopping comodamente da casa tua. Spedizione gratuita, supporto clienti 7/7 e 35 giorni per effettuare il reso."
+        },
+        {
+          "section": "Trust / Guarantee badge asset",
+          "hash": "90_giorni_3.png"
+        }
+      ]
+    }
+  }
+}
