@@ -1,0 +1,86 @@
+name: Rovela Competitor Intelligence
+
+on:
+  schedule:
+    - cron: '0 7 */3 * *'
+  workflow_dispatch:
+    inputs:
+      force_full_scan:
+        description: 'Force full scan ignoring cached state'
+        required: false
+        default: 'false'
+
+jobs:
+  competitor-intelligence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Restore state cache
+        uses: actions/cache@v4
+        with:
+          path: state/
+          key: competitor-state-${{ github.run_id }}
+          restore-keys: |
+            competitor-state-
+
+      - name: Run competitor intelligence scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FORCE_FULL_SCAN: ${{ github.event.inputs.force_full_scan }}
+        run: node scripts/run_intelligence.js
+
+      - name: Save updated state cache
+        uses: actions/cache@v4
+        with:
+          path: state/
+          key: competitor-state-${{ github.run_id }}
+
+      - name: Commit reports to repository
+        run: |
+          git config --local user.email "intelligence-bot@rovelahealth.com"
+          git config --local user.name "Rovela Intelligence Bot"
+          git add reports/
+          git add state/
+          git diff --staged --quiet || git commit -m "Intelligence report: $(date +%Y-%m-%d)"
+          git push
+
+      - name: Send email notification
+        if: env.NEW_CHANGES == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "Rovela Intel Report — ${{ env.REPORT_DATE }}"
+          to: paul@rovelahealth.com
+          from: Rovela Intelligence Bot
+          body: |
+            Your 3-day competitor intelligence scan is complete.
+
+            Changes detected:
+            - Website changes: ${{ env.WEBSITE_CHANGES }}
+            - New ads found: ${{ env.NEW_ADS }}
+            - New sections to build: ${{ env.NEW_SECTIONS }}
+            - Pricing changes: ${{ env.PRICE_CHANGES }}
+
+            Full report committed to your repository under /reports/
+
+      - name: Upload report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: intelligence-report-${{ github.run_number }}
+          path: reports/
+          retention-days: 90
