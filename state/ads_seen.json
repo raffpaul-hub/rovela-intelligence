@@ -1,6 +1,8 @@
 {
   "seen_ids": [
     "ad_library_challenge_block",
-    "ad_library_blocked_challenge"
+    "ad_library_blocked_challenge",
+    "AD_LIB_BLOCKED_001",
+    "ad_library_challenge_blocked"
   ]
 }

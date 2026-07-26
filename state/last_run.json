@@ -1,13 +1,40 @@
 {
   "last_run_date": "2026-07-26",
   "competitors": {
+    "Callixe": {
+      "last_checked": "2026-07-26",
+      "products": [
+        {
+          "name": "Unknown — product data not exposed in homepage HTML snippet",
+          "price": "N/A — requires /products or /collections page crawl"
+        }
+      ],
+      "section_hashes": [
+        {
+          "section": "Page title",
+          "hash": "CALLIXE Official Site | Pain Free Comfort"
+        },
+        {
+          "section": "Meta description",
+          "hash": "CALLIXE was created to provide all-natural solutions to help you live a comfortable and pain free life."
+        },
+        {
+          "section": "Theme identity",
+          "hash": "CALLIXE NEW BRAND DESIGN | OPT2 — Shrine PRO 1.4.2"
+        },
+        {
+          "section": "Active integrations",
+          "hash": "Loox+Trustpilot+SocialSnowball+TheGoodAPI+BestAds"
+        }
+      ]
+    },
     "Prevalnt": {
       "last_checked": "2026-07-26",
       "products": [],
       "section_hashes": [
         {
           "section": "Homepage",
-          "hash": "PrevalntPrevalnt"
+          "hash": "PrevalntPrevalnt-DSF-2.0.11-USD-GB"
         }
       ]
     },

@@ -6,29 +6,53 @@
 
 ## Executive Summary
 
-- Website changes: 2
+- Website changes: 3
 - New ads found: 0
-- New sections to build: 2
+- New sections to build: 3
 - Pricing changes: 0
 
 ---
 
 ## Callixe
-Analysis failed — could not fetch or parse data.
 
+### Website Changes
+| Change Type | Location | Detail | Old | New |
+|-------------|----------|--------|-----|-----|
+| NEW_SECTION | Homepage — general site observation | First crawl of Callixe homepage. Site is a Shopify store using Shrine PRO theme (v1.4.2). Brand positions itself as 'all-natural solutions for pain-free, comfortable life'. Currency USD. Serves EN, ES, DE, FR, EN-GB, EN-AU, EN-CA, EN-NZ markets. Integrates Loox reviews, Trustpilot, Social Snowball referral, The Good API (sustainability badges), and BestAds attribution. | No previous state | Site live at callixe.com — theme: CALLIXE NEW BRAND DESIGN OPT2, Shrine PRO 1.4.2 |
+
+### New Ad Creative
+
+#### Ad 1 — Static [Low]
+- Hook: Ad Library page returned a bot-challenge redirect — no ad creatives were accessible in this crawl.
+- Formula: N/A — page served JavaScript challenge (/__rd_verify) before content loaded; no ad data extracted.
+- Visual: N/A
+- CTA: N/A
+
+
+### Shopify Sections to Build
+
+| Section | Liquid File | CSS File | Est. Time |
+|---------|-------------|----------|-----------|
+| Pain-Free Promise Banner (mirroring Callixe positioning) | sections/rovela-pain-free-promise.liquid | assets/rovela-pain-free-promise.css | 1.5h |
+
+### Pricing Intelligence
+
+| Product | Their Price | Rovela Comparable | Our Price | Action |
+|---------|-------------|-------------------|-----------|--------|
+| Callixe — products unknown (no product HTML in scope) | N/A — requires /collections crawl | N/A | N/A | Monitor — schedule crawl of callixe.com/collections/all to extract full product catalogue and pricing |
 
 ## Prevalnt
 
 ### Website Changes
 | Change Type | Location | Detail | Old | New |
 |-------------|----------|--------|-----|-----|
-| NEW_SECTION | Homepage — full site | First crawl of Prevalnt (prevalnt.com). Site is a Shopify store running the DSF Theme (dropshipformula-2-0-11 v2.0.11). Store is registered in GB but prices display in USD. Underlying Shopify store is thefitnessphere.myshopify.com. No visible product listings, hero copy, or promotional sections were extractable from the truncated HTML — the page body was not returned. | N/A — first run | Shopify storefront live at prevalnt.com; DSF Theme; USD pricing; GB merchant |
+| NEW_SECTION | Homepage | Prevalnt homepage is now detectable with a basic Shopify DSF Theme (dropshipformula-2-0-11 v2.0.11). Previously only a placeholder hash existed. The store operates in USD despite being registered in GB (country code GB, currency USD at rate ~1.36), suggesting US-market targeting. | PrevalntPrevalnt (placeholder hash only) | Live Shopify storefront detected on DSF dropship theme with Apple Pay, Shop Pay, PayPal v4, hCaptcha, and Shopify Payments enabled |
 
 ### New Ad Creative
 
 #### Ad 1 — Static [Low]
-- Hook: Ad Library page returned a bot-challenge redirect — no ad creatives were accessible in this crawl.
-- Formula: N/A — page blocked by Cloudflare/RD challenge before ad content loaded
+- Hook: Ad Library returned a bot-challenge redirect — no creative content was accessible
+- Formula: N/A — page rendered a JavaScript challenge (/__rd_verify_Q_6hBQSoo0nFIz0xe7l1q51mYerv4X2QaqLSUo3QIIaU3yZ3tw) and reloaded, preventing scrape
 - Visual: N/A
 - CTA: N/A
 
@@ -37,20 +61,20 @@ Analysis failed — could not fetch or parse data.
 
 | Section | Liquid File | CSS File | Est. Time |
 |---------|-------------|----------|-----------|
-| Prevalnt-Style DSF Trust Bar | sections/rovela-trust-bar.liquid | assets/rovela-trust-bar.css | 1.5h |
+| Trust & Credentials Bar | sections/rovela-trust-bar.liquid | assets/rovela-trust-bar.css | 1.5h |
 
 ## Artuvate
 
 ### Website Changes
 | Change Type | Location | Detail | Old | New |
 |-------------|----------|--------|-----|-----|
-| NEW_SECTION | Homepage — first observed crawl | Artuvate is an Italian-language Shopify store (locale: it, currency: EUR) focused on wellness/home shopping. Site meta description emphasises free shipping, 7/7 customer support, and a 35-day return window. OG image references a '90 giorni' (90-day) asset suggesting a satisfaction/guarantee badge. Theme is 'Sense 12.0.0' customised as ARTUVATE1.1. Third-party tools detected: Elevar GTM analytics, ConversionBear Trust Badge, Richpanel customer support chat. | No previous state | First crawl baseline established |
+| REMOVED_SECTION | Homepage — detectable product listings | No product data is present in the current HTML snapshot; previous state also recorded empty products array. The page renders standard Shopify homepage shell without visible product sections in the truncated HTML. | [] | [] |
 
 ### New Ad Creative
 
 #### Ad 1 — Static [Low]
-- Hook: Ad Library page returned a bot-challenge redirect — no ad creatives could be extracted this run.
-- Formula: N/A — page served a Cloudflare/RD verify challenge script instead of ad content.
+- Hook: Ad Library page returned a bot-challenge redirect — no ad creatives were accessible in this run.
+- Formula: N/A — page returned a Cloudflare/RD verification challenge before any ad content loaded.
 - Visual: N/A
 - CTA: N/A
 
@@ -59,11 +83,12 @@ Analysis failed — could not fetch or parse data.
 
 | Section | Liquid File | CSS File | Est. Time |
 |---------|-------------|----------|-----------|
-| Trust & Guarantee Banner | sections/rovela-trust-guarantee.liquid | assets/rovela-trust-guarantee.css | 2h |
+| 90-Day Guarantee Trust Banner | sections/rovela-guarantee-banner.liquid | assets/rovela-guarantee-banner.css | 2h |
 
 ---
 
 ## Master Build Checklist
 
-- [ ] Build sections/rovela-trust-bar.liquid — Prevalnt-Style DSF Trust Bar (1.5h)
-- [ ] Build sections/rovela-trust-guarantee.liquid — Trust & Guarantee Banner (2h)
+- [ ] Build sections/rovela-pain-free-promise.liquid — Pain-Free Promise Banner (mirroring Callixe positioning) (1.5h)
+- [ ] Build sections/rovela-trust-bar.liquid — Trust & Credentials Bar (1.5h)
+- [ ] Build sections/rovela-guarantee-banner.liquid — 90-Day Guarantee Trust Banner (2h)
