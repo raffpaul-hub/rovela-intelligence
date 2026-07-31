@@ -1,6 +1,28 @@
 {
   "last_run_date": "2026-07-31",
   "competitors": {
+    "Callixe": {
+      "last_checked": "2026-07-31",
+      "products": [],
+      "section_hashes": [
+        {
+          "section": "Homepage meta title",
+          "hash": "CALLIXE Official Site | Pain Free Comfort"
+        },
+        {
+          "section": "Homepage meta description",
+          "hash": "CALLIXE was created to provide all-natural solutions to help you live a comfortable and pain free life."
+        },
+        {
+          "section": "Theme",
+          "hash": "CALLIXE NEW BRAND DESIGN | OPT2 | Shrine PRO 1.4.2"
+        },
+        {
+          "section": "Active integrations",
+          "hash": "Loox|Trustpilot|SocialSnowball|SproutGoodAPI|BestAds|hCaptcha"
+        }
+      ]
+    },
     "Prevalnt": {
       "last_checked": "2026-07-31",
       "products": [],
@@ -11,7 +33,7 @@
         },
         {
           "section": "Ad Library",
-          "hash": "BOT_CHALLENGE_BLOCKED_2026-07-28"
+          "hash": "BOT_CHALLENGE_BLOCKED_2026-07-31"
         }
       ]
     },
@@ -42,6 +64,30 @@
         {
           "section": "Ad Library page",
           "hash": "BLOCKED_challenge_3_rd_verify"
+        },
+        {
+          "section": "Shopify store locale / currency",
+          "hash": "locale:it|currency:EUR|country:IT"
+        },
+        {
+          "section": "Shopify myshopify domain",
+          "hash": "47ec43-4.myshopify.com"
+        },
+        {
+          "section": "Google site verification",
+          "hash": "KRHVRmBIFpJ7zDxFmkz0Es1mHf0ZAFvXyDvnwIdty28"
+        },
+        {
+          "section": "Elevar cart event config",
+          "hash": "cart_reconcile:true|cart_view:true|checkout_complete:true|product_view:true|user:true|consent_enabled:false"
+        },
+        {
+          "section": "Richpanel app client config",
+          "hash": "appClientId:artuvate7442|tenantId:artuvate744"
+        },
+        {
+          "section": "Captcha provider",
+          "hash": "hcaptcha|f06e6c50-85a8-45c8-87d0-21a2b65856fe"
         }
       ]
     }
