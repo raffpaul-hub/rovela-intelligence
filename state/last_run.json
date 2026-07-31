@@ -1,18 +1,22 @@
 {
-  "last_run_date": "2026-07-28",
+  "last_run_date": "2026-07-31",
   "competitors": {
     "Prevalnt": {
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-07-31",
       "products": [],
       "section_hashes": [
         {
           "section": "Homepage",
           "hash": "PrevalntPrevalnt-DSF-2.0.11-USD-GB"
+        },
+        {
+          "section": "Ad Library",
+          "hash": "BOT_CHALLENGE_BLOCKED_2026-07-28"
         }
       ]
     },
     "Artuvate": {
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-07-31",
       "products": [],
       "section_hashes": [
         {
@@ -30,6 +34,14 @@
         {
           "section": "Third-party apps detected",
           "hash": "trust.conversionbear.com|richpanel_shopify_script"
+        },
+        {
+          "section": "Analytics stack",
+          "hash": "GTM-TXW534BN|AW-16753197422|elevar-gtm-suite-config"
+        },
+        {
+          "section": "Ad Library page",
+          "hash": "BLOCKED_challenge_3_rd_verify"
         }
       ]
     }
