@@ -1,30 +1,8 @@
 {
-  "last_run_date": "2026-07-31",
+  "last_run_date": "2026-08-01",
   "competitors": {
-    "Callixe": {
-      "last_checked": "2026-07-31",
-      "products": [],
-      "section_hashes": [
-        {
-          "section": "Homepage meta title",
-          "hash": "CALLIXE Official Site | Pain Free Comfort"
-        },
-        {
-          "section": "Homepage meta description",
-          "hash": "CALLIXE was created to provide all-natural solutions to help you live a comfortable and pain free life."
-        },
-        {
-          "section": "Theme",
-          "hash": "CALLIXE NEW BRAND DESIGN | OPT2 | Shrine PRO 1.4.2"
-        },
-        {
-          "section": "Active integrations",
-          "hash": "Loox|Trustpilot|SocialSnowball|SproutGoodAPI|BestAds|hCaptcha"
-        }
-      ]
-    },
     "Prevalnt": {
-      "last_checked": "2026-07-31",
+      "last_checked": "2026-08-01",
       "products": [],
       "section_hashes": [
         {
@@ -38,7 +16,7 @@
       ]
     },
     "Artuvate": {
-      "last_checked": "2026-07-31",
+      "last_checked": "2026-08-01",
       "products": [],
       "section_hashes": [
         {
@@ -79,7 +57,7 @@
         },
         {
           "section": "Elevar cart event config",
-          "hash": "cart_reconcile:true|cart_view:true|checkout_complete:true|product_view:true|user:true|consent_enabled:false"
+          "hash": "cart_reconcile:true|cart_view:true|checkout_complete:true|checkout_step:true|collection_view:true|product_add_to_cart:true|product_add_to_cart_ajax:true|product_remove_from_cart:true|product_select:true|product_view:true|search_results_view:true|user:true|save_order_notes:false|consent_enabled:false"
         },
         {
           "section": "Richpanel app client config",
