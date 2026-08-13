@@ -1,8 +1,8 @@
 {
-  "last_run_date": "2026-08-10",
+  "last_run_date": "2026-08-13",
   "competitors": {
     "Callixe": {
-      "last_checked": "2026-08-10",
+      "last_checked": "2026-08-13",
       "products": [],
       "section_hashes": [
         {
@@ -16,11 +16,15 @@
         {
           "section": "Third-party apps",
           "hash": "loox trustpilot socialsnowball sprout bestads"
+        },
+        {
+          "section": "International hreflang",
+          "hash": "en es de fr de-DE en-GB en-CA fr-CA en-AU en-NZ"
         }
       ]
     },
     "Prevalnt": {
-      "last_checked": "2026-08-10",
+      "last_checked": "2026-08-13",
       "products": [],
       "section_hashes": [
         {
@@ -29,12 +33,12 @@
         },
         {
           "section": "Ad Library",
-          "hash": "BOT_CHALLENGE_BLOCKED_2026-08-07"
+          "hash": "BOT_CHALLENGE_BLOCKED_2026-08-10"
         }
       ]
     },
     "Artuvate": {
-      "last_checked": "2026-08-10",
+      "last_checked": "2026-08-13",
       "products": [],
       "section_hashes": [
         {
