@@ -1,8 +1,8 @@
 {
-  "last_run_date": "2026-08-19",
+  "last_run_date": "2026-08-22",
   "competitors": {
     "Callixe": {
-      "last_checked": "2026-08-19",
+      "last_checked": "2026-08-22",
       "products": [],
       "section_hashes": [
         {
@@ -24,7 +24,7 @@
       ]
     },
     "Prevalnt": {
-      "last_checked": "2026-08-19",
+      "last_checked": "2026-08-22",
       "products": [],
       "section_hashes": [
         {
@@ -33,12 +33,12 @@
         },
         {
           "section": "Ad Library",
-          "hash": "BOT_CHALLENGE_BLOCKED_2026-08-16"
+          "hash": "BOT_CHALLENGE_BLOCKED_2026-08-19_TOKEN:Q_6hBQS"
         }
       ]
     },
     "Artuvate": {
-      "last_checked": "2026-08-19",
+      "last_checked": "2026-08-22",
       "products": [],
       "section_hashes": [
         {
