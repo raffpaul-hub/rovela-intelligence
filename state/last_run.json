@@ -1,8 +1,8 @@
 {
-  "last_run_date": "2026-10-10",
+  "last_run_date": "2026-10-13",
   "competitors": {
     "Callixe": {
-      "last_checked": "2026-10-10",
+      "last_checked": "2026-10-13",
       "products": [],
       "section_hashes": [
         {
@@ -24,21 +24,21 @@
       ]
     },
     "Prevalnt": {
-      "last_checked": "2026-10-10",
+      "last_checked": "2026-10-13",
       "products": [],
       "section_hashes": [
         {
           "section": "Homepage",
-          "hash": "PrevalntPrevalnt-DSF-2.0.11-USD-US-thefitnessphere-rate1.3501638"
+          "hash": "PrevalntPrevalnt-DSF-2.0.11-USD-US-thefitnessphere-rate1.3507452"
         },
         {
           "section": "Ad Library",
-          "hash": "BOT_CHALLENGE_BLOCKED_TOKEN:Q_6hBQSSgES1npD2JJV8X0k20napSDDnk6acTjRaBYgZ3xut9A-CHALLENGE:3"
+          "hash": "BOT_CHALLENGE_BLOCKED_TOKEN:Q_6hBQTTzEjbIxtrlMLxGO_-9ued6nBhx9Tl9TZnjCmtRF50-w-CHALLENGE:3"
         }
       ]
     },
     "Artuvate": {
-      "last_checked": "2026-10-10",
+      "last_checked": "2026-10-13",
       "products": [],
       "section_hashes": [
         {
