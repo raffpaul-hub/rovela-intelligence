@@ -1,8 +1,8 @@
 {
-  "last_run_date": "2026-10-28",
+  "last_run_date": "2026-10-31",
   "competitors": {
     "Callixe": {
-      "last_checked": "2026-10-28",
+      "last_checked": "2026-10-31",
       "products": [],
       "section_hashes": [
         {
@@ -15,7 +15,7 @@
         },
         {
           "section": "Third-party apps",
-          "hash": "loox trustpilot socialsnowball sprout-cart sprout-product sprout-banner bestads"
+          "hash": "loox trustpilot socialsnowball sprout-cart sprout-product sprout-banner"
         },
         {
           "section": "International hreflang",
@@ -24,21 +24,21 @@
       ]
     },
     "Prevalnt": {
-      "last_checked": "2026-10-28",
+      "last_checked": "2026-10-31",
       "products": [],
       "section_hashes": [
         {
           "section": "Homepage",
-          "hash": "PrevalntPrevalnt-DSF-2.0.11-USD-US-thefitnessphere-rate1.3554066"
+          "hash": "PrevalntPrevalnt-DSF-2.0.11-USD-US-thefitnessphere-rate1.3661472"
         },
         {
           "section": "Ad Library",
-          "hash": "BOT_CHALLENGE_BLOCKED_TOKEN:Q_6hBQQN-dEz9mtwa9dRvL413DWDW578wfXFxfULV2g9wV5MAw-CHALLENGE:3"
+          "hash": "BOT_CHALLENGE_BLOCKED_TOKEN:Q_6hBQSr49IKsIHs5KDs-VATFUIhqWdBrayZmRc3AW_2WwzYTA-CHALLENGE:3"
         }
       ]
     },
     "Artuvate": {
-      "last_checked": "2026-10-28",
+      "last_checked": "2026-10-31",
       "products": [],
       "section_hashes": [
         {
