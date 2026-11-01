@@ -1,8 +1,8 @@
 {
-  "last_run_date": "2026-10-31",
+  "last_run_date": "2026-11-01",
   "competitors": {
     "Callixe": {
-      "last_checked": "2026-10-31",
+      "last_checked": "2026-11-01",
       "products": [],
       "section_hashes": [
         {
@@ -15,7 +15,7 @@
         },
         {
           "section": "Third-party apps",
-          "hash": "loox trustpilot socialsnowball sprout-cart sprout-product sprout-banner"
+          "hash": "NOT_DETECTED"
         },
         {
           "section": "International hreflang",
@@ -24,7 +24,7 @@
       ]
     },
     "Prevalnt": {
-      "last_checked": "2026-10-31",
+      "last_checked": "2026-11-01",
       "products": [],
       "section_hashes": [
         {
@@ -33,12 +33,12 @@
         },
         {
           "section": "Ad Library",
-          "hash": "BOT_CHALLENGE_BLOCKED_TOKEN:Q_6hBQSr49IKsIHs5KDs-VATFUIhqWdBrayZmRc3AW_2WwzYTA-CHALLENGE:3"
+          "hash": "BOT_CHALLENGE_BLOCKED_TOKEN:Q_6hBQQgTi9n88Y10x2sPLR7rRkwJ9B3Bidr5lMBiWFEgwxpDA-CHALLENGE:3"
         }
       ]
     },
     "Artuvate": {
-      "last_checked": "2026-10-31",
+      "last_checked": "2026-11-01",
       "products": [],
       "section_hashes": [
         {
