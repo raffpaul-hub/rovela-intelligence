@@ -1,8 +1,8 @@
 {
-  "last_run_date": "2026-11-07",
+  "last_run_date": "2026-11-10",
   "competitors": {
     "Callixe": {
-      "last_checked": "2026-11-07",
+      "last_checked": "2026-11-10",
       "products": [],
       "section_hashes": [
         {
@@ -24,7 +24,7 @@
       ]
     },
     "Prevalnt": {
-      "last_checked": "2026-11-07",
+      "last_checked": "2026-11-10",
       "products": [],
       "section_hashes": [
         {
@@ -33,73 +33,7 @@
         },
         {
           "section": "Ad Library",
-          "hash": "BOT_CHALLENGE_BLOCKED_TOKEN:Q_6hBQSKAG-uRrtWJ0EdpTaVXXCf3aBUxUKy1ONq-Dn79kt_VA-CHALLENGE:3"
-        }
-      ]
-    },
-    "Artuvate": {
-      "last_checked": "2026-11-07",
-      "products": [],
-      "section_hashes": [
-        {
-          "section": "Homepage meta / OG",
-          "hash": "ARTUVATE | Store Ufficiale | Artuvate: l'arte di fare shopping comodamente da casa tua. Spedizione gratuita, supporto clienti 7/7 e 35 giorni per effettuare il reso."
-        },
-        {
-          "section": "Trust / Guarantee badge asset",
-          "hash": "90_giorni_3.png"
-        },
-        {
-          "section": "Shopify theme",
-          "hash": "ARTUVATE1.1_Sense_12.0.0"
-        },
-        {
-          "section": "Third-party apps detected",
-          "hash": "trust.conversionbear.com|richpanel_shopify_script"
-        },
-        {
-          "section": "Analytics stack",
-          "hash": "GTM-TXW534BN|AW-16753197422|elevar-gtm-suite-config"
-        },
-        {
-          "section": "Ad Library page",
-          "hash": "BLOCKED_challenge_3_rd_verify"
-        },
-        {
-          "section": "Shopify store locale / currency",
-          "hash": "locale:it|currency:EUR|country:IT"
-        },
-        {
-          "section": "Shopify myshopify domain",
-          "hash": "47ec43-4.myshopify.com"
-        },
-        {
-          "section": "Google site verification",
-          "hash": "KRHVRmBIFpJ7zDxFmkz0Es1mHf0ZAFvXyDvnwIdty28"
-        },
-        {
-          "section": "Elevar cart event config",
-          "hash": "cart_reconcile:true|cart_view:true|checkout_complete:true|checkout_step:true|collection_view:true|product_add_to_cart:true|product_add_to_cart_ajax:true|product_remove_from_cart:true|product_select:true|product_view:true|search_results_view:true|user:true|save_order_notes:false|consent_enabled:false"
-        },
-        {
-          "section": "Richpanel app client config",
-          "hash": "appClientId:artuvate7442|tenantId:artuvate744"
-        },
-        {
-          "section": "Captcha provider",
-          "hash": "hcaptcha|f06e6c50-85a8-45c8-87d0-21a2b65856fe"
-        },
-        {
-          "section": "Shopify exit interstitial script",
-          "hash": "site:artuvate.com|exitPath:/url"
-        },
-        {
-          "section": "Elevar GTM suite script version",
-          "hash": "gtm-datalayer_2.40.js|v=1743776420"
-        },
-        {
-          "section": "Shopify theme CSS base version",
-          "hash": "base.css|v=9714536715590222921700492253"
+          "hash": "BOT_CHALLENGE_BLOCKED_TOKEN:Q_6hBQR71KwhEFrhaF4ZEaYBtfU_VtO5NN5bh_rqlYJ0uAyb-g-CHALLENGE:3"
         }
       ]
     }
